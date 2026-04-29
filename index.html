@@ -1,0 +1,1652 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ══ SEO PRIMARY ══ -->
+  <title>Lucas Moraes | Fotógrafo & Videomaker em São Paulo</title>
+  <meta name="description" content="Lucas Moraes — fotógrafo profissional, videomaker e editor de vídeo em São Paulo. Especialista em fotografia comercial, vídeo institucional e edição cinematográfica. Solicite seu orçamento." />
+  <meta name="keywords" content="fotógrafo São Paulo, videomaker SP, editor de vídeo profissional, fotografia comercial, vídeo institucional, fotógrafo profissional, produção audiovisual São Paulo" />
+  <meta name="author" content="Lucas Moraes" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#080808" />
+  <meta name="geo.region" content="BR-SP" />
+  <meta name="geo.placename" content="São Paulo" />
+
+  <!-- ══ OPEN GRAPH ══ -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://lucasmoraes.foto/" />
+  <meta property="og:title" content="Lucas Moraes | Fotógrafo & Videomaker em São Paulo" />
+  <meta property="og:description" content="Transformando ideias em experiências visuais. Fotografia comercial, vídeo institucional e edição cinematográfica em São Paulo." />
+  <meta property="og:image" content="https://lucasmoraes.foto/og-cover.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Lucas Moraes Visual" />
+
+  <!-- ══ TWITTER CARD ══ -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@lucasmoraesvisual" />
+  <meta name="twitter:title" content="Lucas Moraes | Fotógrafo & Videomaker" />
+  <meta name="twitter:description" content="Transformando ideias em experiências visuais. SP." />
+  <meta name="twitter:image" content="https://lucasmoraes.foto/og-cover.jpg" />
+
+  <link rel="canonical" href="https://lucasmoraes.foto/" />
+
+  <!-- ══ JSON-LD STRUCTURED DATA ══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://lucasmoraes.foto/#person",
+        "name": "Lucas Moraes",
+        "url": "https://lucasmoraes.foto",
+        "image": "https://lucasmoraes.foto/lucas-moraes.jpg",
+        "jobTitle": "Fotógrafo e Videomaker",
+        "description": "Fotógrafo profissional, videomaker e editor de vídeo especializado em produção audiovisual de alto impacto em São Paulo.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "São Paulo",
+          "addressRegion": "SP",
+          "addressCountry": "BR"
+        },
+        "sameAs": [
+          "https://instagram.com/lucasmoraesvisual",
+          "https://youtube.com/@lucasmoraes",
+          "https://linkedin.com/in/lucasmoraes"
+        ],
+        "knowsAbout": ["Fotografia Comercial", "Videomaking", "Edição de Vídeo", "Motion Design", "Produção Audiovisual"]
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://lucasmoraes.foto/#business",
+        "name": "Lucas Moraes Visual",
+        "url": "https://lucasmoraes.foto",
+        "telephone": "+55-11-99999-9999",
+        "email": "contato@lucasmoraes.foto",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "São Paulo",
+          "addressRegion": "SP",
+          "addressCountry": "BR"
+        },
+        "priceRange": "$$",
+        "openingHours": "Mo-Fr 09:00-18:00",
+        "serviceType": ["Fotografia Profissional", "Produção de Vídeo", "Edição de Vídeo"]
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://lucasmoraes.foto/#portfolio",
+        "name": "Portfólio Lucas Moraes",
+        "creator": {"@id": "https://lucasmoraes.foto/#person"},
+        "description": "Portfólio de fotografia comercial, vídeo institucional e edição cinematográfica.",
+        "inLanguage": "pt-BR"
+      }
+    ]
+  }
+  </script>
+
+  <!-- ══ FONTS ══ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ══════════════════════════════════════
+       RESET & ROOT
+    ══════════════════════════════════════ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --black:   #080808;
+      --black-2: #0f0f0f;
+      --black-3: #181818;
+      --black-4: #222222;
+      --white:   #f4f0eb;
+      --white-2: #c8c4be;
+      --white-3: #7a776f;
+      --white-4: #3a3834;
+      --gold:    #c9a96e;
+      --gold-2:  #e8c98a;
+      --gold-dim: rgba(201,169,110,0.12);
+      --red-accent: #c0392b;
+
+      --font-serif: 'Cormorant Garamond', Georgia, serif;
+      --font-sans:  'Outfit', system-ui, sans-serif;
+
+      --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+      --ease-in-out: cubic-bezier(0.76, 0, 0.24, 1);
+
+      --nav-h: 72px;
+      --radius: 4px;
+      --radius-lg: 8px;
+    }
+
+    html { scroll-behavior: smooth; font-size: 16px; }
+
+    body {
+      background: var(--black);
+      color: var(--white);
+      font-family: var(--font-sans);
+      font-weight: 300;
+      line-height: 1.65;
+      overflow-x: hidden;
+      cursor: none;
+    }
+
+    /* ── GRAIN ── */
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 9990;
+      opacity: .028;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+    }
+
+    img { display: block; max-width: 100%; }
+    a { color: inherit; text-decoration: none; }
+    button { font-family: inherit; border: none; background: none; cursor: none; }
+    ul, ol { list-style: none; }
+
+    ::-webkit-scrollbar { width: 3px; }
+    ::-webkit-scrollbar-track { background: var(--black); }
+    ::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 2px; }
+
+    /* ══════════════════════════════════════
+       CUSTOM CURSOR
+    ══════════════════════════════════════ */
+    #cursor-dot {
+      position: fixed;
+      width: 6px; height: 6px;
+      background: var(--gold);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 9999;
+      transform: translate(-50%, -50%);
+      transition: width .2s, height .2s, background .2s;
+      will-change: left, top;
+    }
+    #cursor-circle {
+      position: fixed;
+      width: 40px; height: 40px;
+      border: 1px solid rgba(201,169,110,.45);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 9998;
+      transform: translate(-50%, -50%);
+      will-change: left, top;
+      transition: width .4s var(--ease-out), height .4s var(--ease-out), border-color .3s, background .3s;
+    }
+    .cursor--hover #cursor-dot { width: 12px; height: 12px; background: var(--gold-2); }
+    .cursor--hover #cursor-circle { width: 64px; height: 64px; border-color: rgba(201,169,110,.2); background: rgba(201,169,110,.04); }
+    .cursor--video #cursor-dot { background: #fff; }
+    .cursor--video #cursor-circle {
+      width: 80px; height: 80px;
+      border-color: rgba(255,255,255,.6);
+      background: rgba(255,255,255,.06);
+    }
+
+    /* ══════════════════════════════════════
+       NAV
+    ══════════════════════════════════════ */
+    #nav {
+      position: fixed; top: 0; left: 0; right: 0;
+      height: var(--nav-h);
+      z-index: 500;
+      display: flex; align-items: center;
+      padding: 0 48px;
+      transition: background .5s, backdrop-filter .5s, border-color .5s;
+      border-bottom: 1px solid transparent;
+    }
+    #nav.filled {
+      background: rgba(8,8,8,.88);
+      backdrop-filter: blur(24px);
+      border-color: rgba(255,255,255,.06);
+    }
+    .nav-logo {
+      font-family: var(--font-serif);
+      font-size: 22px;
+      font-weight: 400;
+      letter-spacing: .06em;
+      color: var(--white);
+      flex: 1;
+    }
+    .nav-logo em { color: var(--gold); font-style: normal; }
+    .nav-links {
+      display: flex; align-items: center; gap: 40px;
+    }
+    .nav-links a {
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--white-3);
+      position: relative;
+      transition: color .25s;
+    }
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: -3px; left: 0;
+      width: 0; height: 1px;
+      background: var(--gold);
+      transition: width .35s var(--ease-out);
+    }
+    .nav-links a:hover { color: var(--white); }
+    .nav-links a:hover::after { width: 100%; }
+    .nav-cta {
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--black) !important;
+      background: var(--gold);
+      padding: 10px 24px;
+      border-radius: 2px;
+      transition: background .25s, transform .2s !important;
+    }
+    .nav-cta::after { display: none !important; }
+    .nav-cta:hover { background: var(--gold-2) !important; transform: translateY(-1px); }
+
+    .hamburger {
+      display: none;
+      flex-direction: column; gap: 6px;
+      padding: 4px; margin-left: auto;
+    }
+    .hamburger span {
+      display: block; width: 24px; height: 1px;
+      background: var(--white);
+      transition: transform .3s, opacity .3s;
+    }
+
+    /* ══════════════════════════════════════
+       HERO
+    ══════════════════════════════════════ */
+    #hero {
+      position: relative;
+      height: 100svh; min-height: 600px;
+      display: flex; align-items: flex-end;
+      overflow: hidden;
+    }
+
+    /* Cinematic background — gradient placeholder (swap for real video/image) */
+    .hero-bg {
+      position: absolute; inset: 0;
+      background:
+        linear-gradient(to bottom, rgba(8,8,8,.35) 0%, rgba(8,8,8,.0) 30%, rgba(8,8,8,.7) 80%, var(--black) 100%),
+        linear-gradient(135deg, #0d0c0a 0%, #1a1510 40%, #0f0e0c 100%);
+      overflow: hidden;
+    }
+
+    /* Animated light leak effect (cinematic) */
+    .hero-bg::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 70% 50% at 70% 40%, rgba(201,169,110,.07) 0%, transparent 65%);
+      animation: lightLeak 8s ease-in-out infinite alternate;
+    }
+    .hero-bg::after {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 40% 60% at 20% 60%, rgba(140,80,60,.05) 0%, transparent 70%);
+      animation: lightLeak 11s ease-in-out infinite alternate-reverse;
+    }
+    @keyframes lightLeak {
+      from { opacity: .5; transform: scale(1) translateX(0); }
+      to   { opacity: 1;  transform: scale(1.1) translateX(2%); }
+    }
+
+    /* Real image / video — hidden by default, shown when present */
+    .hero-media {
+      position: absolute; inset: 0;
+      object-fit: cover; width: 100%; height: 100%;
+      opacity: 0;
+      animation: heroReveal 2.4s var(--ease-out) .3s forwards;
+    }
+    @keyframes heroReveal {
+      from { opacity: 0; transform: scale(1.06); }
+      to   { opacity: 1;  transform: scale(1); }
+    }
+
+    /* Grid overlay — cinematic feel */
+    .hero-grid-overlay {
+      position: absolute; inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,.018) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.018) 1px, transparent 1px);
+      background-size: 80px 80px;
+      pointer-events: none;
+    }
+
+    .hero-content {
+      position: relative; z-index: 2;
+      width: 100%;
+      padding: 0 64px 80px;
+      display: flex; align-items: flex-end; justify-content: space-between;
+      gap: 40px;
+    }
+
+    .hero-left {}
+    .hero-tag {
+      display: inline-flex; align-items: center; gap: 10px;
+      font-size: 11px;
+      font-weight: 400;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 20px;
+      opacity: 0;
+      animation: fadeUp .8s var(--ease-out) 1s forwards;
+    }
+    .hero-tag::before {
+      content: '';
+      display: block; width: 32px; height: 1px;
+      background: var(--gold); opacity: .7;
+    }
+
+    .hero-title {
+      font-family: var(--font-serif);
+      font-size: clamp(52px, 7.5vw, 108px);
+      font-weight: 300;
+      line-height: .92;
+      letter-spacing: -.01em;
+      color: var(--white);
+      opacity: 0;
+      animation: fadeUp 1s var(--ease-out) 1.2s forwards;
+    }
+    .hero-title em { font-style: italic; color: var(--gold); }
+
+    .hero-right {
+      text-align: right;
+      max-width: 320px;
+      flex-shrink: 0;
+      opacity: 0;
+      animation: fadeUp .8s var(--ease-out) 1.5s forwards;
+    }
+    .hero-desc {
+      font-size: 14px;
+      font-weight: 300;
+      color: var(--white-2);
+      line-height: 1.75;
+      margin-bottom: 28px;
+    }
+    .hero-scroll {
+      display: inline-flex; align-items: center; gap: 10px;
+      font-size: 11px; letter-spacing: .15em; text-transform: uppercase;
+      color: var(--white-3);
+      margin-top: 16px;
+      animation: scrollPulse 2.5s ease-in-out infinite;
+    }
+    .hero-scroll-line {
+      width: 40px; height: 1px; background: var(--white-4);
+      position: relative; overflow: hidden;
+    }
+    .hero-scroll-line::after {
+      content: '';
+      position: absolute; inset: 0;
+      background: var(--gold);
+      transform: translateX(-100%);
+      animation: scrollLine 2.5s ease-in-out infinite;
+    }
+    @keyframes scrollLine { 0%{transform:translateX(-100%)} 50%,100%{transform:translateX(100%)} }
+    @keyframes scrollPulse { 0%,100%{opacity:.5} 50%{opacity:1} }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ══════════════════════════════════════
+       SECTION COMMONS
+    ══════════════════════════════════════ */
+    section { padding: 120px 0; }
+    .container { max-width: 1280px; margin: 0 auto; padding: 0 48px; }
+
+    .section-eyebrow {
+      display: inline-flex; align-items: center; gap: 14px;
+      font-size: 10px; font-weight: 400;
+      letter-spacing: .22em; text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 24px;
+    }
+    .section-eyebrow::before {
+      content: ''; display: block;
+      width: 28px; height: 1px; background: var(--gold); opacity: .6;
+    }
+
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: clamp(36px, 5vw, 68px);
+      font-weight: 300;
+      line-height: 1.05;
+      letter-spacing: -.01em;
+    }
+    .section-title em { font-style: italic; color: var(--gold); }
+
+    /* reveal animation */
+    .reveal {
+      opacity: 0;
+      transform: translateY(48px);
+      transition: opacity .9s var(--ease-out), transform .9s var(--ease-out);
+    }
+    .reveal.in { opacity: 1; transform: none; }
+    .reveal-d1 { transition-delay: .1s; }
+    .reveal-d2 { transition-delay: .2s; }
+    .reveal-d3 { transition-delay: .3s; }
+    .reveal-d4 { transition-delay: .45s; }
+    .reveal-d5 { transition-delay: .6s; }
+
+    /* ══════════════════════════════════════
+       PORTFOLIO SECTION
+    ══════════════════════════════════════ */
+    #portfolio { background: var(--black); padding-top: 100px; }
+
+    .portfolio-header {
+      display: flex; align-items: flex-end; justify-content: space-between;
+      margin-bottom: 60px; flex-wrap: wrap; gap: 32px;
+    }
+
+    /* Filter tabs */
+    .filter-bar {
+      display: flex; gap: 4px;
+      background: var(--black-3);
+      border: 1px solid rgba(255,255,255,.06);
+      border-radius: 3px;
+      padding: 4px;
+    }
+    .filter-btn {
+      font-size: 11px; font-weight: 400;
+      letter-spacing: .12em; text-transform: uppercase;
+      color: var(--white-3);
+      padding: 8px 20px;
+      border-radius: 2px;
+      transition: color .2s, background .2s;
+    }
+    .filter-btn:hover { color: var(--white); }
+    .filter-btn.active {
+      background: var(--gold);
+      color: var(--black);
+      font-weight: 500;
+    }
+
+    /* ── BENTO GRID ── */
+    .bento-grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-auto-rows: 56px;
+      gap: 12px;
+    }
+
+    .p-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: var(--radius);
+      background: var(--black-3);
+      border: 1px solid rgba(255,255,255,.05);
+      cursor: none;
+      transition: border-color .3s;
+    }
+    .p-card:hover { border-color: rgba(201,169,110,.25); }
+
+    /* Sizes */
+    .p-card--xl   { grid-column: span 7; grid-row: span 8; }
+    .p-card--tall { grid-column: span 5; grid-row: span 8; }
+    .p-card--wide { grid-column: span 7; grid-row: span 6; }
+    .p-card--sm   { grid-column: span 5; grid-row: span 6; }
+    .p-card--sq   { grid-column: span 4; grid-row: span 6; }
+    .p-card--wide2{ grid-column: span 8; grid-row: span 6; }
+
+    /* Thumb */
+    .p-thumb {
+      position: absolute; inset: 0;
+      overflow: hidden;
+    }
+    .p-thumb-img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      transition: transform .9s var(--ease-out);
+      will-change: transform;
+    }
+    .p-thumb-placeholder {
+      width: 100%; height: 100%;
+      display: flex; align-items: center; justify-content: center;
+      flex-direction: column; gap: 12px;
+      background: var(--black-3);
+      transition: transform .9s var(--ease-out);
+    }
+    .p-card:hover .p-thumb-img,
+    .p-card:hover .p-thumb-placeholder { transform: scale(1.06); }
+
+    .placeholder-icon { opacity: .15; }
+
+    /* Gradient overlay — always present, stronger on hover */
+    .p-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(8,8,8,.92) 0%, rgba(8,8,8,.1) 50%, transparent 100%);
+      opacity: .7;
+      transition: opacity .4s;
+    }
+    .p-card:hover .p-overlay { opacity: 1; }
+
+    /* Info */
+    .p-info {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      padding: 24px;
+      transform: translateY(12px);
+      transition: transform .5s var(--ease-out);
+    }
+    .p-card:hover .p-info { transform: none; }
+
+    .p-cat {
+      font-size: 10px; font-weight: 400;
+      letter-spacing: .18em; text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 6px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .p-cat::before {
+      content: ''; display: block;
+      width: 16px; height: 1px; background: var(--gold);
+    }
+    .p-title {
+      font-family: var(--font-serif);
+      font-size: clamp(18px, 2vw, 26px);
+      font-weight: 300;
+      line-height: 1.15;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+    .p-desc {
+      font-size: 13px; color: var(--white-2); line-height: 1.55;
+      opacity: 0;
+      transform: translateY(8px);
+      transition: opacity .4s .1s, transform .4s .1s var(--ease-out);
+      max-width: 340px;
+    }
+    .p-card:hover .p-desc { opacity: 1; transform: none; }
+
+    .p-actions {
+      display: flex; gap: 10px; margin-top: 14px;
+      opacity: 0; transform: translateY(10px);
+      transition: opacity .35s .15s, transform .35s .15s;
+    }
+    .p-card:hover .p-actions { opacity: 1; transform: none; }
+    .p-btn {
+      display: inline-flex; align-items: center; gap: 7px;
+      font-size: 11px; font-weight: 400;
+      letter-spacing: .1em; text-transform: uppercase;
+      padding: 8px 16px; border-radius: 2px;
+      transition: background .2s, color .2s;
+    }
+    .p-btn-primary {
+      background: var(--gold); color: var(--black);
+    }
+    .p-btn-primary:hover { background: var(--gold-2); }
+    .p-btn-ghost {
+      border: 1px solid rgba(255,255,255,.2); color: var(--white);
+    }
+    .p-btn-ghost:hover { border-color: rgba(255,255,255,.5); }
+
+    /* Video badge */
+    .video-badge {
+      position: absolute; top: 16px; right: 16px; z-index: 3;
+      display: flex; align-items: center; gap: 6px;
+      background: rgba(8,8,8,.7);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 100px;
+      padding: 5px 14px 5px 10px;
+      font-size: 11px; color: var(--white); letter-spacing: .05em;
+    }
+    .video-badge svg { color: var(--gold); }
+
+    /* Play button for video cards */
+    .play-btn {
+      position: absolute; top: 50%; left: 50%;
+      transform: translate(-50%, -50%) scale(.85);
+      width: 64px; height: 64px;
+      border: 1.5px solid rgba(255,255,255,.5);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      opacity: 0;
+      transition: opacity .35s, transform .35s var(--ease-out), border-color .25s;
+      z-index: 4;
+    }
+    .p-card:hover .play-btn {
+      opacity: 1; transform: translate(-50%, -50%) scale(1);
+      border-color: var(--gold);
+    }
+    .play-btn svg { margin-left: 3px; }
+
+    /* Hidden cards */
+    .p-card.hidden {
+      display: none;
+    }
+
+    /* ══════════════════════════════════════
+       VIDEO MODAL
+    ══════════════════════════════════════ */
+    #modal {
+      position: fixed; inset: 0; z-index: 800;
+      background: rgba(4,4,4,.97);
+      backdrop-filter: blur(28px);
+      display: flex; align-items: center; justify-content: center;
+      padding: 24px;
+      opacity: 0; pointer-events: none;
+      transition: opacity .45s var(--ease-out);
+    }
+    #modal.open { opacity: 1; pointer-events: all; }
+
+    .modal-inner {
+      width: 100%; max-width: 1000px;
+      transform: scale(.93) translateY(24px);
+      transition: transform .45s var(--ease-out);
+    }
+    #modal.open .modal-inner { transform: none; }
+
+    .modal-video-wrap {
+      position: relative; width: 100%;
+      aspect-ratio: 16/9;
+      background: var(--black-2);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+    .modal-video-wrap iframe {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%; border: none;
+    }
+    .modal-bar {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-top: 20px; flex-wrap: wrap; gap: 12px;
+    }
+    .modal-title-wrap .modal-cat {
+      font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 4px;
+    }
+    .modal-title-wrap .modal-title {
+      font-family: var(--font-serif); font-size: 28px; font-weight: 300;
+    }
+    .modal-close-btn {
+      width: 44px; height: 44px;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,.15);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--white-2); font-size: 20px; line-height: 1;
+      transition: border-color .2s, color .2s, transform .2s;
+    }
+    .modal-close-btn:hover { border-color: var(--white); color: var(--white); transform: rotate(90deg); }
+
+    /* ══════════════════════════════════════
+       ABOUT
+    ══════════════════════════════════════ */
+    #sobre {
+      background: var(--black-2);
+      border-top: 1px solid rgba(255,255,255,.05);
+      border-bottom: 1px solid rgba(255,255,255,.05);
+    }
+
+    .sobre-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 100px; align-items: center;
+    }
+
+    /* Portrait */
+    .sobre-portrait {
+      position: relative;
+    }
+    .portrait-frame {
+      position: relative;
+      aspect-ratio: 3/4;
+      background: var(--black-3);
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,.06);
+    }
+    .portrait-placeholder {
+      width: 100%; height: 100%;
+      display: flex; align-items: center; justify-content: center;
+      background: linear-gradient(160deg, #141210 0%, #0c0b09 100%);
+    }
+    .portrait-img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+    }
+    /* Decorative line */
+    .portrait-frame::after {
+      content: '';
+      position: absolute;
+      top: 20px; right: -16px;
+      width: 1px; height: 60%;
+      background: linear-gradient(to bottom, transparent, var(--gold), transparent);
+      opacity: .35;
+    }
+
+    /* Stats float */
+    .sobre-stats {
+      position: absolute;
+      bottom: -24px; left: -24px;
+      background: var(--black-4);
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: var(--radius-lg);
+      padding: 20px 28px;
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 20px 32px;
+    }
+    .stat { text-align: center; }
+    .stat-n {
+      font-family: var(--font-serif);
+      font-size: 34px; font-weight: 300;
+      color: var(--gold); letter-spacing: -.02em;
+      line-height: 1;
+    }
+    .stat-l {
+      font-size: 10px; letter-spacing: .15em;
+      text-transform: uppercase;
+      color: var(--white-3); margin-top: 4px;
+    }
+
+    /* Content */
+    .sobre-content {}
+    .sobre-text {
+      font-size: 16px; color: var(--white-2);
+      line-height: 1.8; font-weight: 300;
+      margin-bottom: 16px;
+    }
+    .sobre-text strong { color: var(--white); font-weight: 400; }
+
+    .sobre-services {
+      margin-top: 40px;
+      display: flex; flex-direction: column; gap: 0;
+    }
+    .service-item {
+      display: flex; align-items: center; gap: 16px;
+      padding: 16px 0;
+      border-bottom: 1px solid rgba(255,255,255,.05);
+      transition: padding-left .3s var(--ease-out);
+    }
+    .service-item:hover { padding-left: 8px; }
+    .service-num {
+      font-family: var(--font-serif); font-size: 13px;
+      color: var(--gold); font-style: italic; min-width: 24px;
+    }
+    .service-name {
+      font-size: 15px; font-weight: 300; color: var(--white);
+      flex: 1;
+    }
+    .service-arrow { color: var(--white-4); transition: color .25s, transform .25s; }
+    .service-item:hover .service-arrow { color: var(--gold); transform: translateX(4px); }
+
+    /* ══════════════════════════════════════
+       NUMBERS / STATEMENT
+    ══════════════════════════════════════ */
+    #numeros {
+      background: var(--black);
+      padding: 80px 0;
+    }
+    .statement-wrap {
+      text-align: center;
+      max-width: 900px; margin: 0 auto;
+    }
+    .statement {
+      font-family: var(--font-serif);
+      font-size: clamp(28px, 4vw, 52px);
+      font-weight: 300;
+      line-height: 1.3;
+      color: var(--white);
+    }
+    .statement em { font-style: italic; color: var(--gold); }
+
+    .numbers-grid {
+      display: grid; grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.06);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-top: 80px;
+    }
+    .num-cell {
+      background: var(--black-2);
+      padding: 48px 40px;
+      text-align: center;
+    }
+    .num-val {
+      font-family: var(--font-serif);
+      font-size: clamp(40px, 5vw, 64px);
+      font-weight: 300; letter-spacing: -.03em;
+      color: var(--gold); line-height: 1;
+    }
+    .num-label {
+      font-size: 11px; letter-spacing: .16em;
+      text-transform: uppercase;
+      color: var(--white-3); margin-top: 12px;
+    }
+
+    /* ══════════════════════════════════════
+       PROCESS (horizontal scroll)
+    ══════════════════════════════════════ */
+    #processo { background: var(--black-2); }
+    .process-steps {
+      display: grid; grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: rgba(255,255,255,.05);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-top: 64px;
+    }
+    .step {
+      background: var(--black-2);
+      padding: 40px 36px;
+      position: relative;
+      transition: background .3s;
+    }
+    .step:hover { background: var(--black-3); }
+    .step-num {
+      font-family: var(--font-serif); font-size: 52px;
+      font-weight: 300; font-style: italic;
+      color: rgba(201,169,110,.15); line-height: 1;
+      margin-bottom: 24px;
+    }
+    .step-title {
+      font-size: 16px; font-weight: 400;
+      color: var(--white); margin-bottom: 10px;
+    }
+    .step-desc {
+      font-size: 13px; color: var(--white-3); line-height: 1.7;
+    }
+
+    /* ══════════════════════════════════════
+       CONTACT
+    ══════════════════════════════════════ */
+    #contato {
+      background: var(--black);
+      padding-bottom: 140px;
+    }
+    .contact-wrap {
+      max-width: 700px; margin: 0 auto;
+      text-align: center;
+    }
+    .contact-email {
+      display: block;
+      font-family: var(--font-serif);
+      font-size: clamp(28px, 4vw, 52px);
+      font-weight: 300; font-style: italic;
+      color: var(--white);
+      margin: 32px 0;
+      position: relative; display: inline-block;
+      transition: color .3s;
+    }
+    .contact-email::after {
+      content: '';
+      position: absolute; bottom: -4px; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--gold), transparent);
+      transform: scaleX(0);
+      transition: transform .4s var(--ease-out);
+    }
+    .contact-email:hover { color: var(--gold); }
+    .contact-email:hover::after { transform: scaleX(1); }
+
+    .contact-divider {
+      width: 1px; height: 48px;
+      background: linear-gradient(to bottom, transparent, var(--white-4), transparent);
+      margin: 32px auto;
+    }
+
+    .contact-links {
+      display: flex; align-items: center; justify-content: center;
+      flex-wrap: wrap; gap: 16px;
+    }
+    .contact-link {
+      display: flex; align-items: center; gap: 10px;
+      background: var(--black-3);
+      border: 1px solid rgba(255,255,255,.08);
+      padding: 12px 24px;
+      border-radius: 3px;
+      font-size: 13px; color: var(--white-2);
+      transition: border-color .25s, color .25s, transform .25s, box-shadow .25s;
+    }
+    .contact-link:hover {
+      border-color: var(--gold);
+      color: var(--white);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 32px rgba(0,0,0,.4);
+    }
+    .contact-link svg { opacity: .7; }
+
+    .btn-whatsapp {
+      display: inline-flex; align-items: center; gap: 12px;
+      background: var(--gold);
+      color: var(--black) !important;
+      border-color: var(--gold) !important;
+      font-weight: 500 !important;
+      font-size: 14px !important;
+      padding: 14px 32px !important;
+    }
+    .btn-whatsapp:hover {
+      background: var(--gold-2) !important;
+      border-color: var(--gold-2) !important;
+      box-shadow: 0 12px 40px rgba(201,169,110,.2) !important;
+    }
+
+    /* ══════════════════════════════════════
+       FOOTER
+    ══════════════════════════════════════ */
+    footer {
+      border-top: 1px solid rgba(255,255,255,.05);
+      padding: 32px 0;
+    }
+    .footer-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 16px;
+    }
+    .footer-logo {
+      font-family: var(--font-serif); font-size: 18px;
+      font-weight: 300; color: var(--white-3);
+    }
+    .footer-logo em { color: var(--gold); font-style: normal; }
+    footer p { font-size: 12px; color: var(--white-4); letter-spacing: .06em; }
+
+    /* ══════════════════════════════════════
+       HORIZONTAL RULE (gold)
+    ══════════════════════════════════════ */
+    .gold-rule {
+      width: 100%; height: 1px;
+      background: linear-gradient(to right, transparent, var(--gold), transparent);
+      opacity: .2; border: none; margin: 0;
+    }
+
+    /* ══════════════════════════════════════
+       MOBILE MENU
+    ══════════════════════════════════════ */
+    #mobile-menu {
+      position: fixed; inset: 0; z-index: 490;
+      background: rgba(6,6,6,.98);
+      backdrop-filter: blur(20px);
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 36px;
+      opacity: 0; pointer-events: none;
+      transition: opacity .4s;
+    }
+    #mobile-menu.open { opacity: 1; pointer-events: all; }
+    #mobile-menu a {
+      font-family: var(--font-serif);
+      font-size: 44px; font-weight: 300;
+      color: var(--white-2);
+      transition: color .2s;
+    }
+    #mobile-menu a:hover { color: var(--gold); }
+
+    /* ══════════════════════════════════════
+       RESPONSIVE
+    ══════════════════════════════════════ */
+    @media (max-width: 1100px) {
+      .bento-grid { grid-template-columns: repeat(6, 1fr); }
+      .p-card--xl   { grid-column: span 4; grid-row: span 8; }
+      .p-card--tall { grid-column: span 2; grid-row: span 8; }
+      .p-card--wide { grid-column: span 4; grid-row: span 6; }
+      .p-card--sm   { grid-column: span 2; grid-row: span 6; }
+      .p-card--sq   { grid-column: span 2; grid-row: span 6; }
+      .p-card--wide2{ grid-column: span 4; grid-row: span 6; }
+      .numbers-grid { grid-template-columns: repeat(2, 1fr); }
+      .process-steps { grid-template-columns: repeat(2, 1fr); }
+      .sobre-grid { gap: 60px; }
+    }
+
+    @media (max-width: 768px) {
+      :root { --nav-h: 60px; }
+      #nav { padding: 0 24px; }
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .container { padding: 0 24px; }
+      section { padding: 80px 0; }
+      .hero-content { padding: 0 24px 60px; flex-direction: column; align-items: flex-start; }
+      .hero-right { text-align: left; max-width: 100%; }
+      .bento-grid { grid-template-columns: 1fr; grid-auto-rows: auto; gap: 10px; }
+      .p-card--xl,.p-card--tall,.p-card--wide,.p-card--sm,.p-card--sq,.p-card--wide2 {
+        grid-column: span 1; grid-row: span 1;
+      }
+      .p-thumb { position: relative; height: 240px; }
+      .p-info { position: relative; transform: none; padding: 20px; }
+      .p-overlay { display: none; }
+      .p-desc { opacity: 1; transform: none; }
+      .p-actions { opacity: 1; transform: none; }
+      .sobre-grid { grid-template-columns: 1fr; gap: 60px; }
+      .sobre-stats { position: static; margin-top: 24px; }
+      .numbers-grid { grid-template-columns: repeat(2, 1fr); }
+      .process-steps { grid-template-columns: 1fr; }
+      body { cursor: auto; }
+      #cursor-dot, #cursor-circle { display: none; }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ══ CURSOR ══ -->
+<div id="cursor-dot" aria-hidden="true"></div>
+<div id="cursor-circle" aria-hidden="true"></div>
+
+<!-- ══ MOBILE MENU ══ -->
+<div id="mobile-menu" role="dialog" aria-label="Menu de navegação">
+  <a href="#portfolio" onclick="closeMobile()">Portfólio</a>
+  <a href="#sobre"     onclick="closeMobile()">Sobre</a>
+  <a href="#contato"   onclick="closeMobile()">Contato</a>
+</div>
+
+<!-- ══ NAV ══ -->
+<nav id="nav" role="navigation" aria-label="Navegação principal">
+  <a href="/" class="nav-logo" aria-label="Lucas Moraes — página inicial">Lucas <em>Moraes</em></a>
+  <ul class="nav-links" role="list">
+    <li><a href="#portfolio">Portfólio</a></li>
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#processo">Processo</a></li>
+    <li><a href="#contato" class="nav-cta">Contato</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Abrir menu" onclick="toggleMobile()">
+    <span></span><span></span>
+  </button>
+</nav>
+
+<!-- ══ HERO ══ -->
+<header id="hero" role="banner">
+  <div class="hero-bg" aria-hidden="true">
+    <!--
+      SWAP: descomente e ajuste para usar uma imagem real:
+      <img src="sua-foto-hero.jpg" alt="" class="hero-media" />
+
+      Ou para vídeo:
+      <video class="hero-media" autoplay muted loop playsinline poster="thumbnail.jpg">
+        <source src="seu-video-hero.mp4" type="video/mp4">
+      </video>
+    -->
+  </div>
+  <div class="hero-grid-overlay" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-tag">Fotógrafo &amp; Videomaker · São Paulo</div>
+      <h1 class="hero-title">
+        Visão<br>
+        que <em>transforma</em><br>
+        memórias
+      </h1>
+    </div>
+    <div class="hero-right">
+      <p class="hero-desc">
+        Crio imagens e vídeos que capturam o que as palavras não alcançam. Cada projeto é uma história contada com luz, movimento e intenção.
+      </p>
+      <a href="#contato" class="p-btn p-btn-primary" style="display:inline-flex; margin-bottom: 24px;">
+        Vamos conversar
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <div class="hero-scroll" aria-hidden="true">
+        <div class="hero-scroll-line"></div>
+        Scroll
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ══ PORTFOLIO ══ -->
+<section id="portfolio" aria-labelledby="portfolio-heading">
+  <div class="container">
+    <div class="portfolio-header reveal">
+      <div>
+        <div class="section-eyebrow">Trabalhos selecionados</div>
+        <h2 class="section-title" id="portfolio-heading">
+          Portfólio
+        </h2>
+      </div>
+      <div class="filter-bar reveal reveal-d2" role="tablist" aria-label="Filtrar projetos">
+        <button class="filter-btn active" onclick="filterPorfolio('todos',this)"   role="tab" aria-selected="true">Todos</button>
+        <button class="filter-btn" onclick="filterPorfolio('foto',this)"          role="tab" aria-selected="false">Fotografia</button>
+        <button class="filter-btn" onclick="filterPorfolio('video',this)"         role="tab" aria-selected="false">Vídeos</button>
+        <button class="filter-btn" onclick="filterPorfolio('edicao',this)"        role="tab" aria-selected="false">Edição</button>
+      </div>
+    </div>
+
+    <!-- BENTO GRID - dados mockados (edite o array no <script>) -->
+    <div class="bento-grid" id="bento-grid">
+
+      <!-- CARD 1 — foto grande -->
+      <article class="p-card p-card--xl reveal" data-cat="foto" aria-label="Projeto: Ensaio Corporativo | Nexus Tech">
+        <div class="p-thumb">
+          <div class="p-thumb-placeholder">
+            <svg class="placeholder-icon" width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width=".8" aria-hidden="true"><path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z"/><circle cx="12" cy="13" r="4"/></svg>
+            <!-- <img src="projetos/nexus-thumb.jpg" alt="Ensaio Corporativo Nexus Tech" class="p-thumb-img" loading="lazy"> -->
+          </div>
+        </div>
+        <div class="p-overlay" aria-hidden="true"></div>
+        <div class="p-info">
+          <div class="p-cat">Fotografia</div>
+          <h3 class="p-title">Ensaio Corporativo<br>Nexus Tech</h3>
+          <p class="p-desc">Identidade visual completa para startup de tecnologia — produto, equipe e lifestyle em dois dias de produção.</p>
+          <div class="p-actions">
+            <span class="p-btn p-btn-primary">Ver projeto</span>
+            <span class="p-btn p-btn-ghost">Detalhes</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 2 — vídeo tall -->
+      <article class="p-card p-card--tall reveal reveal-d1" data-cat="video" aria-label="Projeto: Filme Institucional | Clínica Saúde Total"
+        onclick="openModal('https://www.youtube.com/embed/LXb3EKWsInQ?autoplay=1','Filme Institucional — Clínica Saúde Total','Produção completa: roteiro, captação e edição para clínica médica referência em SP.')">
+        <div class="p-thumb">
+          <div class="p-thumb-placeholder" style="background: linear-gradient(160deg, #0d1018, #0c1408);">
+            <svg class="placeholder-icon" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width=".8" aria-hidden="true"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+          </div>
+        </div>
+        <div class="video-badge" aria-label="Conteúdo em vídeo">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          Vídeo
+        </div>
+        <div class="play-btn" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="var(--gold)" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </div>
+        <div class="p-overlay" aria-hidden="true"></div>
+        <div class="p-info">
+          <div class="p-cat">Vídeo</div>
+          <h3 class="p-title">Filme Institucional Clínica Saúde Total</h3>
+          <p class="p-desc">Produção completa — roteiro, captação e edição.</p>
+          <div class="p-actions">
+            <span class="p-btn p-btn-primary">▶ Assistir</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 3 — foto wide -->
+      <article class="p-card p-card--wide reveal" data-cat="foto" aria-label="Projeto: Campanha Moda Outono | Ateliê Noir">
+        <div class="p-thumb">
+          <div class="p-thumb-placeholder" style="background: linear-gradient(150deg, #18100e, #0e0e14);">
+            <svg class="placeholder-icon" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width=".8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          </div>
+        </div>
+        <div class="p-overlay" aria-hidden="true"></div>
+        <div class="p-info">
+          <div class="p-cat">Fotografia</div>
+          <h3 class="p-title">Campanha Moda Outono<br>Ateliê Noir</h3>
+          <p class="p-desc">Editorial de moda com direção criativa, iluminação dramática e pós-produção cinematográfica.</p>
+          <div class="p-actions">
+            <span class="p-btn p-btn-primary">Ver galeria</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 4 — edição sm -->
+      <article class="p-card p-card--sm reveal reveal-d2" data-cat="edicao" aria-label="Projeto: Color Grade | Documentário Raízes">
+        <div class="p-thumb">
+          <div class="p-thumb-placeholder" style="background: linear-gradient(150deg, #100c18, #18100a);">
+            <svg class="placeholder-icon" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width=".8" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3m-4.22-7.78-2.12 2.12M6.34 17.66l-2.12 2.12m0-13.96 2.12 2.12m11.32 11.32 2.12 2.12"/></svg>
+          </div>
+        </div>
+        <div class="p-overlay" aria-hidden="true"></div>
+        <div class="p-info">
+          <div class="p-cat">Edição</div>
+          <h3 class="p-title">Color Grade Documentário Raízes</h3>
+          <p class="p-desc">Tratamento completo de cor para longa-metragem documental.</p>
+          <div class="p-actions">
+            <span class="p-btn p-btn-primary">Antes &amp; depois</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 5 — vídeo sq (grande featured) -->
+      <article class="p-card p-card--sq reveal reveal-d1" data-cat="video" aria-label="Projeto: Showreel 2024"
+        onclick="openModal('https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1','Showreel 2024 — Lucas Moraes','O melhor de 2024: fotografia, vídeo e edição reunidos em 2 minutos.')">
+        <div class="p-thumb">
+          <div class="p-thumb-placeholder" style="background: linear-gradient(135deg, #0a0a10, #100a08);">
+            <svg class="placeholder-icon" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width=".8" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+          </div>
+        </div>
+        <div class="video-badge" aria-label="Conteúdo em vídeo">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          Showreel
+        </div>
+        <div class="play-btn" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="var(--gold)"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </div>
+        <div class="p-overlay" aria-hidden="true"></div>
+        <div class="p-info">
+          <div class="p-cat">Vídeo</div>
+          <h3 class="p-title">Showreel 2024</h3>
+          <p class="p-desc">Compilado do melhor de 2024.</p>
+          <div class="p-actions">
+            <span class="p-btn p-btn-primary">▶ Assistir</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 6 — edição wide2 -->
+      <article class="p-card p-card--wide2 reveal reveal-d2" data-cat="edicao" aria-label="Projeto: Trailer Cinematográfico | Nova Era">
+        <div class="p-thumb">
+          <div class="p-thumb-placeholder" style="background: linear-gradient(170deg, #08100c, #100810);">
+            <svg class="placeholder-icon" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width=".8" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="2" ry="2"/><path d="M7 2v20M17 2v20M2 12h20M2 7h5M2 17h5M17 7h5M17 17h5"/></svg>
+          </div>
+        </div>
+        <div class="p-overlay" aria-hidden="true"></div>
+        <div class="p-info">
+          <div class="p-cat">Edição</div>
+          <h3 class="p-title">Trailer Cinematográfico Nova Era Films</h3>
+          <p class="p-desc">Montagem e sound design para trailer de longa-metragem de ficção científica brasileira. Trabalho premiado no Festival de Cinema Independente SP.</p>
+          <div class="p-actions">
+            <span class="p-btn p-btn-primary">Ver trailer</span>
+            <span class="p-btn p-btn-ghost">Case completo</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 7 — foto sq -->
+      <article class="p-card p-card--sq reveal" data-cat="foto" aria-label="Projeto: Retratos Executivos | Banco Meridian">
+        <div class="p-thumb">
+          <div class="p-thumb-placeholder" style="background: linear-gradient(160deg, #0f0f10, #10100c);">
+            <svg class="placeholder-icon" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width=".8" aria-hidden="true"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+        </div>
+        <div class="p-overlay" aria-hidden="true"></div>
+        <div class="p-info">
+          <div class="p-cat">Fotografia</div>
+          <h3 class="p-title">Retratos Executivos Banco Meridian</h3>
+          <p class="p-desc">Sessão de retratos corporativos para diretoria.</p>
+          <div class="p-actions">
+            <span class="p-btn p-btn-primary">Ver galeria</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 8 — vídeo tall -->
+      <article class="p-card p-card--tall reveal reveal-d3" data-cat="video" aria-label="Projeto: Vídeo Social Media | Marca Viva"
+        onclick="openModal('https://www.youtube.com/embed/jNQXAC9IVRw?autoplay=1','Social Media Pack — Marca Viva','Série de 12 vídeos verticais otimizados para Instagram Reels e TikTok.')">
+        <div class="p-thumb">
+          <div class="p-thumb-placeholder" style="background: linear-gradient(170deg, #100c08, #0c0810);">
+            <svg class="placeholder-icon" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width=".8" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="2"/><path d="M8 2v20m8-20v20M2 8h20M2 16h20"/></svg>
+          </div>
+        </div>
+        <div class="video-badge">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          Vídeo
+        </div>
+        <div class="play-btn" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="var(--gold)"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </div>
+        <div class="p-overlay" aria-hidden="true"></div>
+        <div class="p-info">
+          <div class="p-cat">Vídeo</div>
+          <h3 class="p-title">Social Media Pack Marca Viva</h3>
+          <p class="p-desc">12 vídeos para Reels e TikTok.</p>
+          <div class="p-actions">
+            <span class="p-btn p-btn-primary">▶ Assistir</span>
+          </div>
+        </div>
+      </article>
+
+    </div><!-- /bento-grid -->
+  </div>
+</section>
+
+<hr class="gold-rule" />
+
+<!-- ══ SOBRE ══ -->
+<section id="sobre" aria-labelledby="sobre-heading">
+  <div class="container">
+    <div class="sobre-grid">
+
+      <div class="sobre-portrait reveal">
+        <div class="portrait-frame">
+          <div class="portrait-placeholder">
+            <!--
+              SWAP: substitua pelo retrato real:
+              <img src="lucas-moraes.jpg" alt="Lucas Moraes, fotógrafo e videomaker" class="portrait-img" loading="lazy">
+            -->
+            <svg width="88" height="88" viewBox="0 0 24 24" fill="none" stroke="rgba(201,169,110,.2)" stroke-width=".6" aria-hidden="true"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+        </div>
+        <div class="sobre-stats" aria-label="Estatísticas profissionais">
+          <div class="stat">
+            <div class="stat-n" id="cnt-anos">0</div>
+            <div class="stat-l">Anos de exp.</div>
+          </div>
+          <div class="stat">
+            <div class="stat-n" id="cnt-proj">0</div>
+            <div class="stat-l">Projetos</div>
+          </div>
+          <div class="stat">
+            <div class="stat-n" id="cnt-cli">0</div>
+            <div class="stat-l">Clientes</div>
+          </div>
+          <div class="stat">
+            <div class="stat-n" id="cnt-prem">0</div>
+            <div class="stat-l">Prêmios</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sobre-content">
+        <div class="section-eyebrow reveal">Quem sou</div>
+        <h2 class="section-title reveal reveal-d1" id="sobre-heading">
+          Luz, <em>movimento</em><br>e intenção
+        </h2>
+        <div style="margin-top: 32px;">
+          <p class="sobre-text reveal reveal-d2">
+            Sou Lucas Moraes, fotógrafo e videomaker com sede em <strong>São Paulo</strong>. Trabalho na interseção entre a técnica apurada e a sensibilidade artística — criando imagens que comunicam antes mesmo de serem lidas.
+          </p>
+          <p class="sobre-text reveal reveal-d3">
+            Ao longo de <strong>6 anos</strong>, atendi marcas nacionais e internacionais em projetos de fotografia comercial, produção de vídeo institucional, edição cinematográfica e criação de conteúdo para redes sociais.
+          </p>
+        </div>
+
+        <div class="sobre-services reveal reveal-d3" role="list" aria-label="Serviços oferecidos">
+          <div class="service-item" role="listitem">
+            <span class="service-num">01</span>
+            <span class="service-name">Fotografia Comercial &amp; Publicitária</span>
+            <svg class="service-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </div>
+          <div class="service-item" role="listitem">
+            <span class="service-num">02</span>
+            <span class="service-name">Vídeo Institucional &amp; Branded Content</span>
+            <svg class="service-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </div>
+          <div class="service-item" role="listitem">
+            <span class="service-num">03</span>
+            <span class="service-name">Edição &amp; Color Grading Profissional</span>
+            <svg class="service-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </div>
+          <div class="service-item" role="listitem">
+            <span class="service-num">04</span>
+            <span class="service-name">Conteúdo para Redes Sociais</span>
+            <svg class="service-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<hr class="gold-rule" />
+
+<!-- ══ NÚMEROS ══ -->
+<section id="numeros" aria-labelledby="numeros-heading">
+  <div class="container">
+    <div class="statement-wrap reveal">
+      <p class="statement">
+        "Cada imagem é uma decisão — de enquadramento, de luz, de <em>intenção</em>. É assim que histórias se tornam inesquecíveis."
+      </p>
+    </div>
+    <div class="numbers-grid reveal reveal-d2" role="list" aria-label="Números do negócio">
+      <div class="num-cell" role="listitem">
+        <div class="num-val">6+</div>
+        <div class="num-label">Anos de mercado</div>
+      </div>
+      <div class="num-cell" role="listitem">
+        <div class="num-val">120+</div>
+        <div class="num-label">Projetos entregues</div>
+      </div>
+      <div class="num-cell" role="listitem">
+        <div class="num-val">80+</div>
+        <div class="num-label">Clientes atendidos</div>
+      </div>
+      <div class="num-cell" role="listitem">
+        <div class="num-val">5</div>
+        <div class="num-label">Prêmios conquistados</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="gold-rule" />
+
+<!-- ══ PROCESSO ══ -->
+<section id="processo" aria-labelledby="processo-heading">
+  <div class="container">
+    <div class="section-eyebrow reveal">Como trabalho</div>
+    <h2 class="section-title reveal reveal-d1" id="processo-heading">
+      Do briefing à<br><em>entrega final</em>
+    </h2>
+    <div class="process-steps reveal reveal-d2">
+      <div class="step">
+        <div class="step-num">01</div>
+        <div class="step-title">Briefing &amp; Descoberta</div>
+        <p class="step-desc">Entendo o seu negócio, seus objetivos e o público que você quer atingir. Esse é o alicerce de tudo.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <div class="step-title">Pré-produção</div>
+        <p class="step-desc">Roteiro, moodboard, locações, cronograma e tudo que garante que o dia de produção seja perfeito.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <div class="step-title">Captação</div>
+        <p class="step-desc">Produção com equipamentos profissionais, direção de luz e atenção a cada detalhe visual.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">04</div>
+        <div class="step-title">Entrega</div>
+        <p class="step-desc">Edição refinada, color grading cinematográfico e entrega dentro do prazo — sempre.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="gold-rule" />
+
+<!-- ══ CONTATO ══ -->
+<section id="contato" aria-labelledby="contato-heading">
+  <div class="container">
+    <div class="contact-wrap">
+      <div class="section-eyebrow reveal" style="justify-content:center;">Vamos criar juntos</div>
+      <h2 class="section-title reveal reveal-d1" id="contato-heading" style="margin-bottom: 8px;">
+        Pronto para seu<br><em>próximo projeto?</em>
+      </h2>
+      <p class="sobre-text reveal reveal-d2" style="max-width:480px; margin: 0 auto;">
+        Me conta o que você precisa. Respondo em até 24 horas — e adoraria entender como posso ajudar.
+      </p>
+
+      <div class="contact-divider reveal reveal-d2" aria-hidden="true"></div>
+
+      <div class="contact-links reveal reveal-d3">
+        <a href="https://wa.me/5511999999999?text=Olá%20Lucas%2C%20gostaria%20de%20solicitar%20um%20orçamento"
+           class="contact-link btn-whatsapp"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="Enviar mensagem pelo WhatsApp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Falar no WhatsApp
+        </a>
+
+        <a href="mailto:contato@lucasmoraes.foto" class="contact-link"
+           aria-label="Enviar e-mail para Lucas Moraes">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          contato@lucasmoraes.foto
+        </a>
+
+        <a href="https://instagram.com/lucasmoraesvisual" class="contact-link"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="Instagram de Lucas Moraes">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          Instagram
+        </a>
+
+        <a href="https://youtube.com/@lucasmoraes" class="contact-link"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="Canal no YouTube de Lucas Moraes">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          YouTube
+        </a>
+      </div>
+
+      <p class="reveal reveal-d4" style="font-size:12px; color:var(--white-4); margin-top:40px; letter-spacing:.08em;">
+        Baseado em São Paulo · Atendo todo o Brasil · Projetos internacionais sob consulta
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer role="contentinfo">
+  <div class="container">
+    <div class="footer-inner">
+      <a href="/" class="footer-logo" aria-label="Lucas Moraes — início">Lucas <em>Moraes</em></a>
+      <p>© <span id="year"></span> Lucas Moraes. Todos os direitos reservados.</p>
+      <p>São Paulo, Brasil</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ══ VIDEO MODAL ══ -->
+<div id="modal" role="dialog" aria-modal="true" aria-label="Player de vídeo" onclick="handleModalBg(event)">
+  <div class="modal-inner" id="modal-inner">
+    <div class="modal-video-wrap">
+      <iframe id="modal-iframe" src="" title="Vídeo do projeto" allowfullscreen loading="lazy"></iframe>
+    </div>
+    <div class="modal-bar">
+      <div class="modal-title-wrap">
+        <div class="modal-cat" id="modal-cat"></div>
+        <div class="modal-title" id="modal-title"></div>
+        <p style="font-size:13px; color:var(--white-3); margin-top:4px;" id="modal-desc"></p>
+      </div>
+      <button class="modal-close-btn" onclick="closeModal()" aria-label="Fechar player">✕</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     JAVASCRIPT
+══════════════════════════════════════ -->
+<script>
+  /* ── YEAR ── */
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  /* ── CURSOR ── */
+  const dot    = document.getElementById('cursor-dot');
+  const circle = document.getElementById('cursor-circle');
+  let mx = 0, my = 0, cx = 0, cy = 0;
+
+  document.addEventListener('mousemove', e => {
+    mx = e.clientX; my = e.clientY;
+    dot.style.left = mx + 'px';
+    dot.style.top  = my + 'px';
+  });
+
+  (function loop() {
+    cx += (mx - cx) * .11;
+    cy += (my - cy) * .11;
+    circle.style.left = cx + 'px';
+    circle.style.top  = cy + 'px';
+    requestAnimationFrame(loop);
+  })();
+
+  /* cursor states */
+  document.querySelectorAll('a, button, .filter-btn, .p-btn, .service-item').forEach(el => {
+    el.addEventListener('mouseenter', () => document.body.classList.add('cursor--hover'));
+    el.addEventListener('mouseleave', () => document.body.classList.remove('cursor--hover'));
+  });
+  document.querySelectorAll('[data-cat="video"]').forEach(el => {
+    el.addEventListener('mouseenter', () => document.body.classList.add('cursor--video'));
+    el.addEventListener('mouseleave', () => document.body.classList.remove('cursor--video'));
+  });
+
+  /* ── NAV SCROLL ── */
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => nav.classList.toggle('filled', scrollY > 60), { passive: true });
+
+  /* ── SCROLL REVEAL ── */
+  const revealObs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+  }, { threshold: .12, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => revealObs.observe(el));
+
+  /* ── PORTFOLIO FILTER ── */
+  function filterPorfolio(cat, btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => {
+      b.classList.remove('active');
+      b.setAttribute('aria-selected', 'false');
+    });
+    btn.classList.add('active');
+    btn.setAttribute('aria-selected', 'true');
+
+    document.querySelectorAll('.p-card').forEach(card => {
+      const match = cat === 'todos' || card.dataset.cat === cat;
+      card.classList.toggle('hidden', !match);
+    });
+  }
+
+  /* ── VIDEO MODAL ── */
+  function openModal(src, title, desc) {
+    document.getElementById('modal-iframe').src = src;
+    document.getElementById('modal-title').textContent = title;
+    document.getElementById('modal-desc').textContent  = desc;
+    document.getElementById('modal-cat').textContent   = 'Projeto em vídeo';
+    document.getElementById('modal').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal() {
+    document.getElementById('modal').classList.remove('open');
+    document.getElementById('modal-iframe').src = '';
+    document.body.style.overflow = '';
+  }
+
+  function handleModalBg(e) {
+    if (e.target === document.getElementById('modal')) closeModal();
+  }
+
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+  /* ── MOBILE MENU ── */
+  const mobileMenu = document.getElementById('mobile-menu');
+  function toggleMobile() { mobileMenu.classList.toggle('open'); }
+  function closeMobile()  { mobileMenu.classList.remove('open'); }
+
+  /* ── COUNTER ANIMATION ── */
+  const counters = [
+    { id: 'cnt-anos', target: 6,   suffix: '+' },
+    { id: 'cnt-proj', target: 120, suffix: '+' },
+    { id: 'cnt-cli',  target: 80,  suffix: '+' },
+    { id: 'cnt-prem', target: 5,   suffix: ''  },
+  ];
+
+  let countersStarted = false;
+  const countObs = new IntersectionObserver(entries => {
+    if (entries[0].isIntersecting && !countersStarted) {
+      countersStarted = true;
+      counters.forEach(({ id, target, suffix }) => {
+        const el = document.getElementById(id);
+        let val = 0;
+        const step = Math.max(1, Math.ceil(target / 45));
+        const t = setInterval(() => {
+          val = Math.min(val + step, target);
+          el.textContent = val + suffix;
+          if (val >= target) clearInterval(t);
+        }, 28);
+      });
+    }
+  }, { threshold: .5 });
+
+  const sobreSection = document.getElementById('sobre');
+  if (sobreSection) countObs.observe(sobreSection);
+
+  /* ── PARALLAX (hero orbs) ── */
+  window.addEventListener('scroll', () => {
+    const y = scrollY * .08;
+    document.querySelector('.hero-bg') &&
+      (document.querySelector('.hero-bg').style.transform = `translateY(${y}px)`);
+  }, { passive: true });
+
+  /* ── SPOTLIGHT on cards ── */
+  document.querySelectorAll('.p-card').forEach(card => {
+    card.addEventListener('mousemove', e => {
+      const r = card.getBoundingClientRect();
+      card.style.setProperty('--mx', (e.clientX - r.left) + 'px');
+      card.style.setProperty('--my', (e.clientY - r.top)  + 'px');
+    });
+  });
+</script>
+</body>
+</html>
